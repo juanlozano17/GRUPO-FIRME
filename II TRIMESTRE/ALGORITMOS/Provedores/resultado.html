@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matriz de Evaluacion</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to bottom right, #eef2f3, #cfd9df);
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #2a4d69;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    table {
+      margin: 30px auto;
+      border-collapse: collapse;
+      width: 85%;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #dce3f0;
+      color: #333;
+    }
+    caption {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .mejor {
+      background-color: #baf3ba;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Evaluacion de Proveedores 2025</h1>
+  <caption>C. MATRIZ DE EVALUACION</caption>
+  <table id="tabla">
+     <tr><th>Criterio</th><th>Peso (%)</th><th>Puntuación (1-5)</th><th>A (Ecolite)</th><th>B (Casaferretera)</th><th>C (Casaandina)</th><th>D (Exito)</th></tr><tr><td>Costo</td><td>30%</td><td>4, 2, 2, 2</td><td>1.20</td><td>0.60</td><td>0.60</td><td>0.60</td></tr><tr><td>Calidad</td><td>25%</td><td>5, 2, 2, 4</td><td>1.25</td><td>0.50</td><td>0.50</td><td>1.00</td></tr><tr><td>Soporte tecnico</td><td>20%</td><td>4, 4, 4, 3</td><td>0.80</td><td>0.80</td><td>0.80</td><td>0.60</td></tr><tr><td>Vida util</td><td>15%</td><td>2, 2, 3, 4</td><td>0.30</td><td>0.30</td><td>0.45</td><td>0.60</td></tr><tr><td>Garantia</td><td>10%</td><td>2, 2, 5, 1</td><td>0.20</td><td>0.20</td><td>0.50</td><td>0.10</td></tr><tr><th colspan='3'>PUNTAJE TOTAL</th><td class='mejor'>3.75</td><td>2.40</td><td>2.85</td><td>2.90</td></tr>
+  </table>
+  <h3 id="resultado">✅ La mejor opción es: <b style='color:green;'>A (Ecolite)</b></h3>
+</body>
+</html>
